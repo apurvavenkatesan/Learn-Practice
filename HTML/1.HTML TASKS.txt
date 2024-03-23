@@ -1,0 +1,79 @@
+HTML TASKS
+
+DAY 1
+1.write the structure of a html document.
+2.Create a Html file with your name as title.
+3.Create a HTML program using Basic and Types of Heading tags
+4.Create a Html file with the paragraph about you as a body with  “About Me” as heading 1.
+5.Create a Html file with your qualities to be listed with H1 to H6 tags.
+6.Use paragraph tag and bring the output of  paragraph.
+7.create a html document with heading,para,hr,br tags.
+8.Use <hr> tag and bring an output .
+9.use br tag and bring an output.
+10.Create a Html file with your photo and name as caption.
+11.Create a Web page using HTML Image Tag with Attributes
+12. Place an image as such and also with the attributes.
+
+DAY 2
+Day-2
+
+1.Create a web page which displays your personal details in the below format:
+●      Name: xxxx
+●      Gender: xxxx
+●      e-mail ID: xxxx
+●      Mob.No.: xxxx
+●      Xth Percentage: xx
+●      Inter Percentage: xx
+●      Aggregate Percentage in B.Tech: xx
+The main heading of the page should be "My Profile" below which the above mentioned details should be displayed.
+Also the left-hand side details like Name, Gender, etc., should be displayed in bold.
+
+2. In this task, we want you to mark up the provided HTML using semantic heading and paragraph elements.
+
+3. In this task, we want you to turn the first un-marked up list into an unordered list, and the second one into an ordered list.
+
+4. Create a hyperlink with in a document.
+Sample link: example.com.
+
+5. Create a HTML program for Ordered and Unordered List
+6. Create a HTML program by using text formatting tags,
+
+7. use superscript and subscript tags.
+
+8. create a tourism web page with images, anchor tags, headings and paragraphs.
+
+9. place a  header, image and footer
+
+10.Figure and figcaption
+Use image attributes such as height and width and bring a small image as an output.
+
+11. use del,ins tags
+
+DAY 3
+
+1.Create a Html file with My Success Story as title.
+2.Create a Html file with the paragraph about your studies journey as a body with  “My Qualification” as heading 4.
+3. Create a html file with pre tag for your college details with     heading 5 as “ My College”.
+4. Create a Html file with table having sno, family member, title   and age as table heading.
+5. Create a Html file with atleast three rows inserted into the   above table.
+6. Create a Html file with unordered list of your hobbies. And   make hobbies as heading.
+7. Create a Html file with Success Story as Summary and Details   inserted within that Summary
+8.TABLE-TIMETABLE 
+9.TABLE-SALES INFORMATION
+10.TABLE- INVOICE ABC LTD
+11.TABLE- PERSONAL DETAILS
+12.TABLE- USING TABLES IN WEBSITES
+13.Use the audio tag to embed the file on your page. Make sure it plays.
+14.Use attributes on the audio tag to make the file autoplay and loop forever.
+15.Use the video tag to embed the file on your page. Make sure it plays.
+16.Make the video 600 pixels wide and remove the controls, using attributes of the tag.
+
+DAY 4
+1. FORM 1
+2. FORM 2
+3. FORM 3
+4. FORM 4
+5. FORM 5
+6. FORM 6
+
+
