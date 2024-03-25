@@ -1,0 +1,108 @@
+CSS TASKS
+
+DAY 1
+
+1.write a CSS code in inline style and display the paragraphs and headings in different colors.
+2. how will you link a CSS file.
+write the syntax and bring a output of your own
+3.Internal css-fill in the code to display a heading in red color.
+4. using internal style display the paragraphs  in red color and headings in blue color.
+5. write the CSS code in external style and bring the output.
+6. using universal selector display the text in blue color.
+7. which selector you will use to display all the paragraphs  in blue color.
+write the code and bring the output.
+8. use class selector and bring the paragraph in red color and another paragraph in blue color.
+9. use id selector and bring a output.
+10. use descendant selector and display h2 headings in yellow color
+11. use child selector and display the h2 headings in blue color.
+12. Create a web page using Div(Box or Container) tag with all attributes
+
+DAY 2
+
+1.Display the text of the <div> tag as "italic".
+2.Display the text of the <span> tag as "bold".
+3.Set the font size of the page to "16px", the font size of the <h1> tag to "30pt", and the font size of the <p> tag to "1.5em".
+4.Set the font family of the page to "Helvetica", and the font family of the <p> tag to "Lucida Console".
+5.Add "italic", "16px" and "Helvetica" to the <h1> tag.
+6.How to specify the font for a paragraph?
+Text Properties
+1.Create a web page using CSS Text-Properties.
+2.How to set the text alignment for elements?
+3.How to set indent of the first line of all paragraph elements?
+4.How to set justify property in the paragraph elements?
+5.How to use text-overflow property?
+6.How to add shadow to text?
+7.How to change cases of text in paragraphs?
+8.How to set the text direction to "right-to-left"?
+9.How to set the letter spacing for heading elements?
+10.How to set the line height in percent?
+11.How to specify the space between words in paragraph element?
+
+DAY 3
+
+1. TASK 1
+2. How to set the background-attachment property whether a background image is fixed or scrolls with the rest of the page?
+3.How to specify the painting area of the background?
+4. How to set the background-color of different elements?
+5.How to set a background-image for the body element?
+6.  How to set the a background-image in the right-center of a document?
+How to set the a background-image as horizontal and vertical position in percentage of a document?
+7.Set the background image as cover
+8.Set the background image as contain.
+9. Set the background image using no-repeat
+10. Bring the repeated images along the x-axis.
+11. Bring the repeated images along the y-axis.
+12. Bring the background image using auto.
+13. Place an image at the center of a webpage.
+14.Place an image at the top of a webpage.
+15. Place an image at the bottom of a webpage.
+16. Using percentage bring the image to left bottom.
+17. Using percentage bring the image to right bottom.
+18. Using percentage bring the image to right top.
+
+DAY 4
+List
+1.Create a page called unordered.html. Set the title and a top level heading to Unordered List. Create an unordered list with five or more related items of your choosing. Put a second level heading above the list with text decribing what types of items the list contains. Give appropriate styling for the same.
+
+2.Create a page called ordered.html. Set the title and a top level heading to Ordered List. Create an ordered list with five or more related items of your choosing. Put a second level heading above the list with text decribing what types of items the list contains.Style the page using css properties.
+
+3. 3.Create a page called description.html. Set the title and a top level heading to Description List. Create a descriptions list with descriptions of the following HTML terms:
+•HTML
+•HTML element
+•HTML tag
+•angle bracket
+•HTML attribute
+•HTML comment
+•HTML object element
+•HTML special character
+Put a second level heading above the description list with HTML Terms as text.
+Style it appropriately using css.
+
+
+4.In this exercise you will need to use nested ordered lists with type attributes to create an outline. Create a page called learning_webdev.html Set the title and a top level heading to Learning Web Development, then use nested ordered lists to create a page that looks like this:
+Style the same using css properties. 
+
+DAY 5
+1. Create a web layout using pseudo classes
+2.Create a web layout using pseudo classes
+3.Create a web page using relevant tag while clicking it has to be open in new tab
+4. using pseudo class
+5. using pseudo element
+
+DAY 6
+TABLE
+1. TABLE 1
+2. TABLE 2
+3. TABLE 3
+
+DAY 7
+CSS BOX MODEL
+1. TASK 1
+2.TASK 2
+3. TASK 3
+4. TASK 4
+5. TASK 5
+6. TASK 6
+7. TASK 7
+
+
