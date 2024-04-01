@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Day4 Q3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        table{
+            padding: 5px;
+        }
+        form{
+            border: 2px solid gray;
+            padding: 15px;
+        }
+        input{
+            border: solid gray;
+            border-style: inset;
+        }
+
+        submit,reset{
+            border-style:outset ;
+            
+         } 
+         .dropdown{
+            width: 180px;
+            border: solid gray;
+            border-style: inset;
+        }
+        .email{
+            width: 220px;
+        }
+        .button{
+            border-style: outset;
+        }
+       
+    </style>
+</head>
+<body>
+  
+    <h1>Form 3</h1>
+    <form action="D4formsubmission.html" method="post">
+        <fieldset>
+            <legend>Customer</legend>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name <span style="color: red;">*</span></label></td>
+                    <td><input type="text" id="name" required> </td>
+                </tr>
+                <tr>
+                    <td> <label for="email">Email <span style="color: red;">*</span></label></td>
+                    <td> <input type="email" id="email" class="email" required></td>
+                </tr>
+                <tr>
+                    <td> <label for="dropdown">Investment</label></td>
+                    <td> <select class="dropdown" name="dropdown">
+                        <option value=""> </option>
+                        <option value=""></option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>  <label for="date">Date Joined <span style="color: red;">*</span></label></td>
+                    <td> <input type="text">
+                        <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="active">Active</label></td>
+                    <td > <input type="checkbox" id="active" value="yes" > </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset> <br>
+    <div >
+        <input class="button" type="submit" value="OK">
+        <input class="button" type="reset" value="Cancel">
+    </div>
+    </form>
+
+</body>
+</html>
+

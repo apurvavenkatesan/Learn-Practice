@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Day4 Q1</title>
+    <style>
+        table{
+            border: 3px solid whitesmoke;
+            border-style: outset;
+            padding: 15px;
+        }
+        input{
+            border: 2px solid gray;
+        }
+        .input{
+            border: 2px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form 1</h1>
+    <form action="D4formsubmission.html" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name :</label></td>
+                    <td><input type="text" id="name" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password :</label></td>
+                    <td><input type="password" id="password" placeholder="Password" > </td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender :</label></td>
+                    <td><input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female</td>
+                </tr>
+                 <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" id="email" placeholder="Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="phno">Phone No :</label></td>
+                    <td>
+                        <select class="input" name="dropdown">
+                        <option  value="+91"> +91</option>
+                        <option value=""></option>
+                        </select>
+                        <input type="tel" id="phno" placeholder="Phone No" maxlength="10" pattern="[6-9]{1}[0-9]{9}">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="submit"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
