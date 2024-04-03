@@ -1,0 +1,27 @@
+body{
+    margin:20px;
+} 
+h1{
+    color:coral;
+}
+.q1{
+    color: rgb(151, 51, 151);
+}
+.q2{
+    color:rgb(61, 3, 102);
+}
+.q3{
+    color:blue;
+}
+.q4{
+    color:green;
+}
+.q5{
+    color:rgb(246, 219, 18);
+}
+.q6{
+    color:rgb(255, 166, 0);
+}
+.q7{
+    color:red;
+}

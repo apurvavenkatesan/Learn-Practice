@@ -1,0 +1,28 @@
+body{
+    margin:20px;
+    background-color: bisque;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: green;
+}
+h3{
+    color:purple;
+}
+h4{
+    color: red;
+}
+.p1{
+    color: deeppink;
+}
+.p2{
+    color:orange
+}
+.p3{
+    color: grey;
+}
+.p4{
+    color: deepskyblue;
+}
