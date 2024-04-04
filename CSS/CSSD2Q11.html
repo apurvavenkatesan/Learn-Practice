@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day2 Task11</title>
+    
+    <style>
+        body{
+            margin: 30px;
+            font-size: 16px;
+        }
+        h1{
+            text-align: center;
+        }
+       .type{
+            font-weight: bold;
+       }
+       div.visible {
+            background-color: lightblue;
+            width: 150px;
+            height: 110px;
+            overflow: visible;
+            text-align: center;
+            border: 2px solid;
+       
+        }
+        div.scroll{
+            background-color: lightcoral;
+            width: 150px;
+            height: 110px;
+            overflow: scroll;
+            border: 2px solid;
+        }
+
+        div.hidden {
+            background-color: lightgray;
+            width: 150px;
+            height: 110px;
+            overflow: hidden;
+            border: 2px solid;
+        }
+
+        div.auto {
+            background-color:lightgreen;
+            width: 150px;
+            height: 110px;
+            overflow: auto;
+            border: 2px solid;
+        }
+
+        div.clip{
+            background-color:lightpink;
+            width: 150px;
+            height: 110px;
+            overflow: clip;
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text overflow property</h1>
+    <p>The text-overflow CSS property is used to specify how the content of an element should behave when it overflows its box. This property is particularly useful for handling long blocks of text that may not fit within a fixed-width container. It specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. </p>
+    <p>The overflow property has the following values:
+        <ul>
+            <li><span class="type">visible -</span> Default. The overflow is not clipped. The content renders outside the element's box</li>
+            <li><span class="type">hidden - </span>The overflow is clipped, and the rest of the content will be invisible.</li>
+            <li><span class="type">scroll -</span> The overflow is clipped, and a scrollbar is added to see the rest of the content</li>
+            <li><span class="type">auto -</span> Similar to scroll, but it adds scrollbars only when necessary</li>
+            <li><span class="type">clip -</span>The overflow is clipped, and the rest of the content will be invisible. Forbids scrolling, including programmatic scrolling.</li>
+        </ul>
+    </p>
+
+    <h2>overflow: visible (default):</h2>
+    <div class="visible">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, cum voluptates doloribus expedita debitis magnam,  error neque omnis under.
+    </div> 
+
+    <h2>overflow: hidden:</h2>
+    <div class="hidden">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </div>
+
+
+    <h2>overflow: scroll:</h2>
+    <div class="scroll">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias sint, vel eveniet placeat praesentium sapiente molestias sed. Blanditiis doloremque consequuntur quasi autem, temporibus adipisci maiores?
+    </div>
+    
+    <h2>overflow: auto:</h2>
+    <div class="auto">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </div>
+
+    <h2>overflow: clip:</h2>
+    <div class="clip">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </div>
+
+
+</body>
+</html>
+
+
