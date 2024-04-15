@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS DOM paragraph style</title>
+
+</head>
+<body>
+  <p id="text">JavaScript Exercises - KGMicrocollege</p>
+  <div>
+    <button id="jsstyle" onclick="js_style()">Style</button>
+  </div>
+
+  <script>
+    function js_style() {
+      // Get the paragraph element
+      var paragraph = document.getElementById("text");
+
+      // Modify the style
+      paragraph.style.fontFamily ='Times New Roman';
+      paragraph.style.fontSize = "20px";
+      paragraph.style.color = "blue";
+      paragraph.style.fontWeight = "bold";
+    }
+  </script>
+</body>
+</html>
